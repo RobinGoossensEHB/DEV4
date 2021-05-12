@@ -8,7 +8,6 @@ public class DierenKooiSluiten implements Command{
 
     @Override
     public void DeurCommand() {dierenkooi.toe();
-
     }
 
     @Override
