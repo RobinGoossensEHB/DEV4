@@ -10,3 +10,5 @@ public class AquariumHaai extends TakenLijst {
         System.out.println("kijk de veiligheid na");
     }
 }
+
+

@@ -1,4 +1,4 @@
-public class KooiPapegaai extends TakenLijst {
+/*public class KooiPapegaai extends TakenLijst {
 
     @Override
     void kuisen() {
@@ -10,3 +10,4 @@ public class KooiPapegaai extends TakenLijst {
         System.out.println("kijk zit stokken na");
     }
 }
+*/

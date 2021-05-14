@@ -1,6 +1,6 @@
 
 
 public interface Command {
-    void DeurCommand();
-    void Undo();
+    void execute();
+    void undo();
 }
