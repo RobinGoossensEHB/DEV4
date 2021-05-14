@@ -1,0 +1,2 @@
+public class AssertEquals {
+}

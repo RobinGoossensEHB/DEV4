@@ -2,11 +2,15 @@ public class KooiAap extends TakenLijst{
 
     @Override
     void kuisen() {
-        System.out.println("kuis de apen kooi");
+        Kuisen kuisen = new Kuisen();
+        Command KuisenDoneCommand = new KuisenDoneCommand(kuisen);
+        KuisenDoneCommand.undo();
     }
 
     @Override
     void nakijken() {
-        System.out.println("kijk het speelgoed na");
+        Nakijken nakijken = new Nakijken();
+        Command NakijkenDoneCommand = new NakijkenDoneCommand(nakijken);
+        NakijkenDoneCommand.execute();
     }
 }

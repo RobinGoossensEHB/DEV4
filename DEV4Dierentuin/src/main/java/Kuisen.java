@@ -1,11 +1,7 @@
 public class Kuisen {
-
     public void done() {
-        System.out.println("Kooi is gekuist");
+        System.out.println("Aquarium is gekuist");
     }
-
-    public void toDo() {
-        System.out.println("kuis de kooi");
-    }
+    public void toDo() { System.out.println("Kooi is gekuist"); }
 }
 

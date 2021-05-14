@@ -1,14 +1,21 @@
 public class AquariumHaai extends TakenLijst {
 
     @Override
-    void kuisen() {
-        System.out.println("kuis het aquarium");
+    public void kuisen() {
+        Kuisen kuisen = new Kuisen();
+        Command KuisenDoneCommand = new KuisenDoneCommand(kuisen);
+        KuisenDoneCommand.execute();
     }
 
     @Override
-    void nakijken() {
-        System.out.println("kijk de veiligheid na");
+    public void nakijken() {
+        Nakijken nakijken = new Nakijken();
+        Command NakijkenDoneCommand = new NakijkenDoneCommand(nakijken);
+        NakijkenDoneCommand.extra();
     }
+
+
+
 }
 
 

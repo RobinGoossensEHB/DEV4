@@ -2,11 +2,15 @@ public class KooiPapegaai extends TakenLijst {
 
     @Override
     void kuisen() {
-        System.out.println("kuis de papegaaien kooi uit");
+       Kuisen kuisen = new Kuisen();
+        Command KuisenDoneCommand = new KuisenDoneCommand(kuisen);
+        KuisenDoneCommand.undo();
     }
 
     @Override
     void nakijken() {
-        System.out.println("kijk zit stokken na");
+        Nakijken nakijken = new Nakijken();
+        Command NakijkenDoneCommand = new NakijkenDoneCommand(nakijken);
+        NakijkenDoneCommand.undo();
     }
 }

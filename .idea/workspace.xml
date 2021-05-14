@@ -22,10 +22,26 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="afc320d9-53e5-4fc7-b909-01beaff0ce3a" name="Default Changelist" comment="Command files toegevoegd mist nog één file">
+    <list default="true" id="afc320d9-53e5-4fc7-b909-01beaff0ce3a" name="Default Changelist" comment="Strategy aanpassing typefouten">
+      <change afterPath="$PROJECT_DIR$/DEV4Dierentuin/src/main/java/Nakijken.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DEV4Dierentuin/src/main/java/NakijkenDoneCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DEV4Dierentuin/src/test/java/AssertEquals.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DEV4Dierentuin/.gradle/6.7/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/DEV4Dierentuin/.gradle/6.7/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DEV4Dierentuin/.gradle/6.7/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/DEV4Dierentuin/.gradle/6.7/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DEV4Dierentuin/.gradle/6.7/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/DEV4Dierentuin/.gradle/6.7/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DEV4Dierentuin/.gradle/6.7/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/DEV4Dierentuin/.gradle/6.7/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DEV4Dierentuin/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/DEV4Dierentuin/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DEV4Dierentuin/src/main/java/AquariumHaai.java" beforeDir="false" afterPath="$PROJECT_DIR$/DEV4Dierentuin/src/main/java/AquariumHaai.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DEV4Dierentuin/src/main/java/Command.java" beforeDir="false" afterPath="$PROJECT_DIR$/DEV4Dierentuin/src/main/java/Command.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DEV4Dierentuin/src/main/java/KooiAap.java" beforeDir="false" afterPath="$PROJECT_DIR$/DEV4Dierentuin/src/main/java/KooiAap.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DEV4Dierentuin/src/main/java/KooiPapegaai.java" beforeDir="false" afterPath="$PROJECT_DIR$/DEV4Dierentuin/src/main/java/KooiPapegaai.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DEV4Dierentuin/src/main/java/Kuisen.java" beforeDir="false" afterPath="$PROJECT_DIR$/DEV4Dierentuin/src/main/java/Kuisen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DEV4Dierentuin/src/main/java/KuisenDoneCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/DEV4Dierentuin/src/main/java/KuisenDoneCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DEV4Dierentuin/src/main/java/KuisenToDoCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DEV4Dierentuin/src/main/java/NoCommand.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/DEV4Dierentuin/src/main/java/TakenLijst.java" beforeDir="false" afterPath="$PROJECT_DIR$/DEV4Dierentuin/src/main/java/TakenLijst.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DEV4Dierentuin/src/test/java/TakenLijstTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/DEV4Dierentuin/src/test/java/TakenLijstTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,8 +70,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -92,45 +108,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.TakenLijstTest.testTakenLijst">
-    <configuration name="DEV4Dierentuin [dependencies]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/DEV4Dierentuin" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="dependencies" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="DEV4Dierentuin [test]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/DEV4Dierentuin" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Gradle.TakenLijstTest.testSetChecked">
     <configuration name="EtenGevenTest.maakEten" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -150,12 +128,50 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="TakenLijstTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/DEV4Dierentuin" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;TakenLijstTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="TakenLijstTest.testLijst" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/DEV4Dierentuin" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" value="--tests &quot;TakenLijstTest.testLijst&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="TakenLijstTest.testSetChecked" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/DEV4Dierentuin" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;TakenLijstTest.testSetChecked&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -190,11 +206,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.TakenLijstTest.testSetChecked" />
+        <item itemvalue="Gradle.TakenLijstTest" />
         <item itemvalue="Gradle.TakenLijstTest.testTakenLijst" />
         <item itemvalue="Gradle.TakenLijstTest.testLijst" />
         <item itemvalue="Gradle.EtenGevenTest.maakEten" />
-        <item itemvalue="Gradle.DEV4Dierentuin [test]" />
-        <item itemvalue="Gradle.DEV4Dierentuin [dependencies]" />
       </list>
     </recent_temporary>
   </component>
@@ -228,7 +244,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620992480609</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Strategy aanpassing typefouten">
+      <created>1620997013022</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1620997013022</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -247,7 +270,8 @@
     <MESSAGE value="Test werking git" />
     <MESSAGE value="Toevoeging template methode" />
     <MESSAGE value="Command files toegevoegd mist nog één file" />
-    <option name="LAST_COMMIT_MESSAGE" value="Command files toegevoegd mist nog één file" />
+    <MESSAGE value="Strategy aanpassing typefouten" />
+    <option name="LAST_COMMIT_MESSAGE" value="Strategy aanpassing typefouten" />
   </component>
   <component name="WindowStateProjectService">
     <state x="352" y="0" key="#Project_Structure" timestamp="1620817179074">
@@ -255,68 +279,89 @@
     </state>
     <state x="352" y="0" key="#Project_Structure/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1620817179074" />
     <state x="2360" y="94" key="#Project_Structure/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1620739256622" />
-    <state x="574" y="119" key="#com.intellij.ide.util.MemberChooser" timestamp="1620986557055">
+    <state x="574" y="119" key="#com.intellij.ide.util.MemberChooser" timestamp="1621004477670">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="574" y="119" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1620986557055" />
+    <state x="574" y="119" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1621004477670" />
     <state x="574" y="119" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1620986291381" />
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1621004302963">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1621004302963" />
     <state x="592" y="217" key="FileChooserDialogImpl" timestamp="1620984010546">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="592" y="217" key="FileChooserDialogImpl/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1620815797234" />
     <state x="2660" y="274" key="FileChooserDialogImpl/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1620739457486" />
     <state x="592" y="217" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1620984010546" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1620991195273">
+    <state width="1493" height="264" key="GridCell.Tab.0.bottom" timestamp="1621004810233">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1620991195273" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1620739276233" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1620991195273">
+    <state width="1493" height="264" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1621004810233" />
+    <state width="1877" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1620997052760" />
+    <state width="1493" height="264" key="GridCell.Tab.0.center" timestamp="1621004810233">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1620991195273" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1620739276233" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1620991195272">
+    <state width="1493" height="264" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1621004810233" />
+    <state width="1877" height="210" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1620997052760" />
+    <state width="1493" height="264" key="GridCell.Tab.0.left" timestamp="1621004810233">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1620991195272" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1620739276233" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1620991195273">
+    <state width="1493" height="264" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1621004810233" />
+    <state width="1877" height="210" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1620997052760" />
+    <state width="1493" height="264" key="GridCell.Tab.0.right" timestamp="1621004810233">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1620991195273" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1620739276233" />
+    <state width="1493" height="264" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1621004810233" />
+    <state width="1877" height="210" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1620997052760" />
     <state x="2520" y="282" key="MultipleFileMergeDialog" timestamp="1620739014572">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2520" y="282" key="MultipleFileMergeDialog/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1620739014572" />
-    <state x="2704" y="240" key="RollbackChangesDialog" timestamp="1620738676648">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state x="627" y="190" key="RollbackChangesDialog" timestamp="1621002461409">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state x="627" y="190" key="RollbackChangesDialog/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1621002461409" />
     <state x="2704" y="240" key="RollbackChangesDialog/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1620738676648" />
     <state x="285" y="57" key="SettingsEditor" timestamp="1620816162157">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="285" y="57" key="SettingsEditor/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1620816162157" />
-    <state x="442" y="200" key="Vcs.Push.Dialog.v2" timestamp="1620992563369">
+    <state width="498" height="446" key="SwitcherDM" timestamp="1620999098372">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state width="498" height="446" key="SwitcherDM/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1620999098372" />
+    <state x="2472" y="252" key="Vcs.Push.Dialog.v2" timestamp="1620997018234">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
     <state x="442" y="200" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1620992563369" />
-    <state x="2472" y="252" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1620739000366" />
+    <state x="2472" y="252" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1620997018234" />
     <state x="442" y="200" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1620984085708" />
     <state x="622" y="344" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1620983141514">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="2697" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1620808553089" />
     <state x="622" y="344" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1620983141514" />
-    <state x="540" y="224" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1620986381282">
+    <state x="540" y="224" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1621000500855">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="540" y="224" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1620818614572" />
+    <state x="540" y="224" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1621000500855" />
     <state x="540" y="224" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.824@0.0.1536.824" timestamp="1620986381282" />
+    <state x="2232" y="133" width="979" height="629" key="dock-window-1" timestamp="1621004078686">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2232" y="133" width="979" height="629" key="dock-window-1/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1621004078686" />
     <state x="2519" y="131" key="new project wizard" timestamp="1620739076577">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2519" y="131" key="new project wizard/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1620739076577" />
+    <state x="475" y="161" key="refactoring.ChangeSignatureDialog" timestamp="1621000012129">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="475" y="161" key="refactoring.ChangeSignatureDialog/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1621000012129" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1621002815621">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1621002815621" />
   </component>
 </project>

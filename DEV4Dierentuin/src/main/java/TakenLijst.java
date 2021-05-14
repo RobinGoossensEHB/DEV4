@@ -1,23 +1,16 @@
 public abstract class TakenLijst {
 
-    final void voltooiTaken (){
-      deurOpen ();
+ void voltooiTaken(){
+        deurOpen ();
         etenGeven();
-         kuisen();
+        kuisen();
         nakijken();
-    deurToe();
+        deurToe();
    }
-
    abstract void kuisen();
-  abstract void nakijken();
+   abstract void nakijken();
 
-   void deurOpen(){
-        System.out.println("ga binnen");
-    }
-    void etenGeven(){
-        System.out.println("geef dier eten");
-    }
-    void deurToe(){
-        System.out.println("sluit alles goed af");
-    }
+   public void deurOpen(){ System.out.println("binnen gaan gebeurde veilig"); }
+   public void etenGeven(){ System.out.println("dier heeft eten gekregen"); }
+   public void deurToe(){  System.out.println("alles is goed afgesloten"); }
 }
