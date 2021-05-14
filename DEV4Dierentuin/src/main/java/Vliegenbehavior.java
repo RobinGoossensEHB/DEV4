@@ -1,3 +1,3 @@
 public interface Vliegenbehavior {
-    void Vliegen();
+    void vliegen();
 }

@@ -7,6 +7,7 @@ public abstract class TakenLijst {
         nakijken();
     deurToe();
    }
+
    abstract void kuisen();
   abstract void nakijken();
 

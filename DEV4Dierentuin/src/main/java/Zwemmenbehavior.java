@@ -1,4 +1,4 @@
 public interface Zwemmenbehavior {
-    void Zwemmen();
+    void zwemmen();
 
 }
