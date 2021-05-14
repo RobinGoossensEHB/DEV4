@@ -1,2 +1,3 @@
 rootProject.name = 'DEV4Dierentuin'
+include 'Dev4'
 

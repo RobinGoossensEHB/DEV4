@@ -2,8 +2,8 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel>
-      <module name="DEV4Dierentuin.main" target="15" />
-      <module name="DEV4Dierentuin.test" target="15" />
+      <module name="DEV4Dierentuin.Dev4.main" target="15" />
+      <module name="DEV4Dierentuin.Dev4.test" target="15" />
     </bytecodeTargetLevel>
   </component>
 </project>

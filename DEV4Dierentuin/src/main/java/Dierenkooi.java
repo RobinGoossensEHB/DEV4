@@ -6,4 +6,5 @@ public class Dierenkooi {
     protected Loopbehavior loopbehavior;
 
 
+
 }
