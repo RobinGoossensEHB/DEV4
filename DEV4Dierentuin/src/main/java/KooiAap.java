@@ -7,10 +7,4 @@ public class KooiAap extends TakenLijst{
         KuisenDoneCommand.undo();
     }
 
-    @Override
-    void nakijken() {
-        Nakijken nakijken = new Nakijken();
-        Command NakijkenDoneCommand = new NakijkenDoneCommand(nakijken);
-        NakijkenDoneCommand.execute();
-    }
 }

@@ -7,15 +7,6 @@ public class AquariumHaai extends TakenLijst {
         KuisenDoneCommand.execute();
     }
 
-    @Override
-    public void nakijken() {
-        Nakijken nakijken = new Nakijken();
-        Command NakijkenDoneCommand = new NakijkenDoneCommand(nakijken);
-        NakijkenDoneCommand.extra();
-    }
-
-
-
 }
 
 

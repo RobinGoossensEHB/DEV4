@@ -13,8 +13,4 @@ public class KuisenDoneCommand implements Command {
 
     @Override
     public void undo() { this.kuisen.toDo(); }
-
-    @Override
-    public void extra() { //nulobject
-        }
 }

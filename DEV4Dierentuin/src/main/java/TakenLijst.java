@@ -8,8 +8,8 @@ public abstract class TakenLijst {
         deurToe();
    }
    abstract void kuisen();
-   abstract void nakijken();
 
+   public void nakijken(){System.out.println("kooien zijn gecontroleerd");}
    public void deurOpen(){ System.out.println("binnen gaan gebeurde veilig"); }
    public void etenGeven(){ System.out.println("dier heeft eten gekregen"); }
    public void deurToe(){  System.out.println("alles is goed afgesloten"); }
