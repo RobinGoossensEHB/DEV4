@@ -1,17 +1,15 @@
+import junit.framework.TestCase;
 import org.junit.jupiter.api.Test;
-
-
-
-class TakenLijstTest {
+import junit.framework.Assert;
+public class TakenLijstTest extends TestCase {
 
 @Test
-    void testSetChecked (){
+    public void testSetChecked  (){
     TakenLijst takenLijst = new AquariumHaai();
-    takenLijst.voltooiTaken();
     TakenLijst takenLijst2 = new KooiAap();
-   takenLijst2.voltooiTaken();
     TakenLijst takenLijst3 = new KooiPapegaai();
-    takenLijst3.voltooiTaken();
+
+    Assert.assertEquals(takenLijst.nakijken(),takenLijst2.nakijken(),takenLijst3.nakijken());
 }
 
 

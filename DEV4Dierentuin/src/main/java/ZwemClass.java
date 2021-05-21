@@ -1,6 +1,6 @@
 public class ZwemClass implements Zwemmenbehavior{
     @Override
-    public void zwemmen() {
-        System.out.println("Dit dier kan zwemmen!");
+    public String zwemmen() {
+       return ("Dit dier kan zwemmen!");
     }
 }

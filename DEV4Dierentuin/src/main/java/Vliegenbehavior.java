@@ -1,3 +1,3 @@
 public interface Vliegenbehavior {
-    void vliegen();
+    String vliegen();
 }

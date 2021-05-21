@@ -9,8 +9,8 @@ public abstract class TakenLijst {
    }
    abstract void kuisen();
 
-   public void nakijken(){System.out.println("kooien zijn gecontroleerd");}
-   public void deurOpen(){ System.out.println("binnen gaan gebeurde veilig"); }
-   public void etenGeven(){ System.out.println("dier heeft eten gekregen"); }
-   public void deurToe(){  System.out.println("alles is goed afgesloten"); }
+   public String nakijken(){ return( ("kooien zijn gecontroleerd"));}
+   public String deurOpen(){return( ("binnen gaan gebeurde veilig")); }
+   public String etenGeven(){return( ("dier heeft eten gekregen")); }
+   public String deurToe(){return(  ("alles is goed afgesloten")); }
 }

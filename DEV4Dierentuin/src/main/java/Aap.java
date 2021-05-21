@@ -4,5 +4,7 @@ public class Aap extends Dierenkooi {
         super.loopbehavior = new LoopClass();
         super.zwembehavior = new ZwemClass();
 
+
+
     }
 }

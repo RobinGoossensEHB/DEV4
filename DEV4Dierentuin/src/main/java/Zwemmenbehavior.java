@@ -1,4 +1,4 @@
 public interface Zwemmenbehavior {
-    void zwemmen();
+    String zwemmen();
 
 }
