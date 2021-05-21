@@ -1,0 +1,38 @@
+KooiPapegaai.java
+ KooiPapegaai
+AquariumHaai.java
+ AquariumHaai
+Kuisen.java
+ Kuisen
+TakenLijst.java
+ TakenLijst
+KooiAap.java
+ KooiAap
+Command.java
+ Command
+KuisenDoneCommand.java
+ KuisenDoneCommand
+Aap.java
+ Aap
+LoopClass.java
+ LoopClass
+Zwemmenbehavior.java
+ Zwemmenbehavior
+KlimClass.java
+ KlimClass
+VliegClass.java
+ VliegClass
+Klimmenbehavior.java
+ Klimmenbehavior
+ZwemClass.java
+ ZwemClass
+Dierenkooi.java
+ Dierenkooi
+Loopbehavior.java
+ Loopbehavior
+Haai.java
+ Haai
+Vliegenbehavior.java
+ Vliegenbehavior
+Papegaai.java
+ Papegaai

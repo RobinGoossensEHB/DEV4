@@ -1,0 +1,8 @@
+TakenLijstTest.java
+ TakenLijstTest
+CommandTest.java
+ CommandTest
+AapTest.java
+ AapTest
+HaaiTest.java
+ HaaiTest
