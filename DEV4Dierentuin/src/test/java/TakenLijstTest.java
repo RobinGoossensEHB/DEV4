@@ -10,6 +10,8 @@ public class TakenLijstTest extends TestCase {
     TakenLijst takenLijst3 = new KooiPapegaai();
 
     Assert.assertEquals(takenLijst.nakijken(),takenLijst2.nakijken(),takenLijst3.nakijken());
+    Assert.assertEquals(takenLijst.deurOpen(),takenLijst2.deurOpen());
+
 }
 
 

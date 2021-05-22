@@ -12,6 +12,7 @@ class AapTest {
         Assert.assertEquals("Dit dier kan klimmen!", aap.klimbehavior.klimmen());
         Assert.assertEquals("Dit dier kan lopen!", aap.loopbehavior.loop());
         Assert.assertEquals("Dit dier kan zwemmen!", aap.zwembehavior.zwemmen());
+        Assert.assertNull(aap.vliegbehavior);
     }
 
 }

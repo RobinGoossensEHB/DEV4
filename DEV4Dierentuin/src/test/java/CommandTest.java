@@ -6,7 +6,11 @@ public class CommandTest extends TestCase {
     @Test
     public void testKuisenDone() {
         Kuisen kuisen = new Kuisen();
-        Assert.assertEquals("Aquarium of kooi is gekuist", kuisen.done());
-
+        TakenLijst takenLijst = new AquariumHaai();
+        Command KuisenDoneCommand = new KuisenDoneCommand(kuisen);
+        CheckList checkList = new CheckList();
+        checkList.setCommand(KuisenDoneCommand, KuisenDoneCommand);
+        checkList.doneWasChecked();
+        takenLijst.voltooiTaken();
     }
 }
