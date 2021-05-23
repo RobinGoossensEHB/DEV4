@@ -28,6 +28,7 @@ const takenLijst = (dieren) => {
     return function (dier) {
         const dierNaam = dier.naam;
         return `${dierNaam}: ${deurOpen}, ${etenGeven}, ${kuisen(dierNaam)}, ${deurToe}, De tijd dat nodig is om de kooi te kuisen en het dier eten te geven is:${dier.tijd}`;
+         //deuropen, etengeven deurtoe geen pure function want input word niet meegeven als parameter
     };
 };
 
@@ -61,7 +62,7 @@ function selectionSort(dieren) {
              dieren[min].naam = tmp2;      
         }
     }
-    console.log(dieren);
+    console.log(dieren); // side effect loggen naar console
     return dieren;
 }
  
@@ -69,4 +70,4 @@ function selectionSort(dieren) {
 let test = selectionSort(dieren);
 const takenLijstDoen = dieren.map(takenLijst());
 
-console.log(takenLijstDoen);
+console.log(takenLijstDoen); // side effect loggen naar console
