@@ -8,9 +8,9 @@ public class CommandTest extends TestCase {
         Kuisen kuisen = new Kuisen();
         TakenLijst takenLijst = new AquariumHaai();
         Command KuisenDoneCommand = new KuisenDoneCommand(kuisen);
-        CheckList checkList = new CheckList();
-        checkList.setCommand(KuisenDoneCommand, KuisenDoneCommand);
-        checkList.doneWasChecked();
+        DierenKooi dierenkooi = New Dierenkooi();
+        dierenkooi.setCommand(KuisenDoneCommand, KuisenDoneCommand);
+        dierenkooi.doneWasChecked();
         takenLijst.voltooiTaken();
     }
 }
